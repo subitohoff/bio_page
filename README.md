@@ -1,2 +1,3 @@
 # bio_page
-Here is a template for a bio page 
+Here is a free template for a bio page.
+
