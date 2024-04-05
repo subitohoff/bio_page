@@ -1,0 +1,126 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .slider-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+
+  }
+
+  .yellow-box {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F7EC0E;
+    padding: 22px;
+    width: 17%;
+    height: 82%;
+    text-align: center;
+  }
+
+
+
+	
+.pho{
+margin-top:2%;
+}
+
+.pho img{
+  display: inline-block; 
+  border: 2px solid black; 
+  border-radius: 50%; 
+  width:160px;
+  height:160px !important;
+}
+#about{
+	margin-top:10px;
+	text-align:center;
+	font-size:19px;
+	padding:15px;
+}
+.btns{
+  margin-top:12px;
+  text-align:center;	
+}
+
+.btns a{
+ background: linear-gradient(to right,#0076ff ,#1e1a8f);
+ color: #fff;
+ font-size: 24px;
+ font-weight: 400;
+ font-style: normal;
+ text-decoration: none;
+ padding: 10px;
+ border: 2px solid #000;
+ border-radius: 4px;
+ display: block;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 10px 11px 2px -5px #2D2D2D;
+ text-shadow: 2px 2px 0px #000;
+ margin-top:20px;
+}
+
+.btns a:hover{
+
+ background-color: #0070f2;
+}
+
+.btns a:active{
+
+ transform: scale(0.95);
+
+}
+.btns img{
+height:24px;
+width:24px;
+
+}
+
+
+#fb{
+
+background: linear-gradient(to right,#323EDD ,#323EFF);
+}
+#ins{
+background: linear-gradient(to right,#fd6c9e ,#fd6cAF);
+
+}
+#yt{
+background: linear-gradient(to right,#F12525 ,#F12599);
+
+}
+#tik{
+background: linear-gradient(to right,#100B0B ,#100BAD);
+
+}
+#ad{
+background: linear-gradient(to right,#463500 ,#463508);
+
+}
+
+
+/*Made by subito. Ty for using */
+
+
+
